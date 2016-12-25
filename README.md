@@ -1,2 +1,4 @@
 # n00bdjango
 Django tutorial using Bower, Requests, Twitter Bootstrap + Github API http://drksephy.github.io/2015/07/16/django/
+
+In this tutorial, we will be building a Django application from the ground up which will allow the user to query Github data through the use of a form. To build our application, we’ll be using a wide array of technologies. We’ll use [`pip`](https://en.wikipedia.org/wiki/Pip_(package_manager)) for Python package dependency management, [`bower`](https://bower.io) for front-end dependency management, [`Twitter Bootstrap`](http://getbootstrap.com) for design, [`Requests`](http://docs.python-requests.org/en/latest/) for making HTTP requests, the [`Github API`](https://developer.github.com/v3/) as our data source, and of course, [`Django`](https://www.djangoproject.com).
