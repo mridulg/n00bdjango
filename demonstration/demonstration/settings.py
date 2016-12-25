@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -51,6 +52,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'demonstration.urls'
+
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 TEMPLATES = [
     {
